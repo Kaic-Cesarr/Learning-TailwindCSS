@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-blue-300">
+    <!-- Sem usar o flexbox -->
+    <div class="w-24 p-4 bg-white m-3"></div>
+    <div class="w-24 p-4 bg-white m-3"></div>
+    <div class="w-24 p-4 bg-white m-3"></div>
+
+
+    <!-- Usando flex -->
+    <div class="w-full h-40 flex space-x-4 bg-gray-300 justify-center items-center">
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+    </div>
+
+    <!-- Usando flex row -->
+    <div class="w-full h-40 mt-20 flex space-x-4 bg-gray-300 justify-center items-center">
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+        <div class="flex-grow flex-shirink-0 w-24 h-10 p-4 bg-red-600"></div>
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+
+        <!-- Flex grow - Para um elemento tomar maior parte da proporção -->
+        <!-- Flex shirink - Para o elemento grow ter o valor minimo que é passado no width -->
+    </div>
+    
+    <div class="w-full h-80 mt-20 flex flex-col space-y-4 bg-gray-300 items-center">
+        <div class="flex-grow w-24 h-10 p-4 bg-red-600"></div>
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+        <div class="w-24 h-10 p-4 bg-red-600"></div>
+    </div>
+
+</body>
+</html>
