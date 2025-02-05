@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <h1 class="text-gray-300 hover:text-black hover:underline">Hello Tailwind</h1>
+
+    <!-- Quando usamos o Group, ele atinge todos os hover que estão passados o group, nesse caso abaixo, a div obtem o group e os elementos h1 e p sofrem alteração quando o hover é ativado no group-->
+    <div class="group w-72 h-24 mt-20 bg-gray-100 p-4">
+        <h4 class="group-hover:font-bold">Titulo do card</h4>
+        <p class="text-gray-500 text-sm group-hover:text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <br>
+
+    <input 
+        type="text" 
+        placeholder="Digite o seu texto"
+        class="bg-gray-100 hover:bg-gray-300 text-lg px-4 py-2 focus:text-red-300"
+    >
+</body>
+</html>
