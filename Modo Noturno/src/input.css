@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+/* Está dizendo ao Tailwind para criar uma variante dark que aplica estilos a qualquer elemento dentro de um ancestral com a classe .dark, tornando o suporte ao modo escuro mais flexível e dinâmico. */
