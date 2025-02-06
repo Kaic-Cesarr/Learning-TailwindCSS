@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+/* Podemos criar classes com suas definições fixas e utiliza-las quando chamamos essa classe */
+.laravue {
+    background: #9e9e9e;
+}
+
+.box-texts {
+    background-color: #589add;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+}
